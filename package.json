@@ -1,0 +1,23 @@
+{
+  "name": "web-liga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angel200sdnot/web-liga.git"
+  },
+  "author": "Angel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angel200sdnot/web-liga/issues"
+  },
+  "homepage": "https://github.com/angel200sdnot/web-liga#readme",
+  "dependencies": {
+    "next": "^1.2.3"
+  }
+}
