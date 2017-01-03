@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/angel200sdnot/web-liga#readme",
   "dependencies": {
-    "next": "^1.2.3"
+    "next": "^2.0.0-beta"
   }
 }
