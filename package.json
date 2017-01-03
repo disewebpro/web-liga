@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +19,10 @@
   },
   "homepage": "https://github.com/angel200sdnot/web-liga#readme",
   "dependencies": {
+    "connect-mongo": "^1.3.2",
     "express": "^4.14.0",
     "express-session": "^1.14.2",
+    "mongoose": "^4.7.6",
     "next": "^2.0.0-beta.12"
   }
 }
